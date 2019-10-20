@@ -1,0 +1,3 @@
+C:/Users/natan/Desktop/SkiaTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/natan/Desktop/SkiaTest/cmake-build-debug/CMakeFiles/SkiaTest.dir
+C:/Users/natan/Desktop/SkiaTest/cmake-build-debug/CMakeFiles/edit_cache.dir

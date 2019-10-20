@@ -1,0 +1,3 @@
+C:/Users/natan/Desktop/SkiaTest/_build/CMakeFiles/SkiaTest.dir
+C:/Users/natan/Desktop/SkiaTest/_build/CMakeFiles/ALL_BUILD.dir
+C:/Users/natan/Desktop/SkiaTest/_build/CMakeFiles/ZERO_CHECK.dir

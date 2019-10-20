@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="SkiaTest" targetName="SkiaTest" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9ba5b7f6-e3c3-4aba-9215-721a337114de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/SkiaTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/ALL_BUILD.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/ALL_BUILD.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdC/CompilerIdC.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdC/CompilerIdC.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdC/Debug/CMakeCCompilerId.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/VCTargetsPath.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/VCTargetsPath.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/3.15.4/x64/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/a83f6bd073b35e6a885630e0281e7c26/generate.stamp.rule" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/generate.stamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/generate.stamp.depend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/CMakeFiles/generate.stamp.list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/Debug/SkiaTest.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/Debug/SkiaTest.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/Debug/SkiaTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/SkiaTest.dir/Debug/SkiaTest.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/SkiaTest.dir/Debug/SkiaTest.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/SkiaTest.dir/Debug/SkiaTest.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/SkiaTest.dir/Debug/SkiaTest.tlog/CustomBuild.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/SkiaTest.dir/Debug/SkiaTest.tlog/CustomBuild.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/SkiaTest.dir/Debug/SkiaTest.tlog/CustomBuild.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/SkiaTest.dir/Debug/SkiaTest.tlog/SkiaTest.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/SkiaTest.dir/Debug/SkiaTest.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/SkiaTest.dir/Debug/SkiaTest.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/SkiaTest.dir/Debug/SkiaTest.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/SkiaTest.dir/Debug/main.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/SkiaTest.dir/Debug/vc142.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/SkiaTest.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/SkiaTest.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/SkiaTest.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/ZERO_CHECK.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/ZERO_CHECK.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_build/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/ZERO_CHECK.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SkiaTest.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SkiaTest.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SkiaTest.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SkiaTest.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SkiaTest.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SkiaTest.dir/includes_CXX.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SkiaTest.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SkiaTest.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SkiaTest.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/SkiaTest.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/SkiaTest.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/SkiaTest.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/SkiaTest.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/SkiaTest.dir/HelloWorld.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/SkiaTest.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/SkiaTest.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/SkiaTest.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/SkiaTest.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/SkiaTest.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/SkiaTest.dir/includes_CXX.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/SkiaTest.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/SkiaTest.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/SkiaTest.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/SkiaTest.dir/tools/sk_app/Window.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/SkiaTest.dir/tools/sk_app/win/main_win.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/SkiaTest.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/glew/include/GL/eglew.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/glew/include/GL/glew.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/glew/include/GL/glxew.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/glew/include/GL/wglew.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/glew/lib/glew32.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/glew/lib/glew32s.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/glfw/include/GLFW/glfw3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/glfw/include/GLFW/glfw3native.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/glfw/lib/glfw3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/glfw/lib/glfw3.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/glfw/lib/glfw3dll.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_assert.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_atomic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_audio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_bits.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_blendmode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_clipboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_config.h.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_config.h.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_config_android.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_config_iphoneos.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_config_macosx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_config_macosx.h.orig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_config_minimal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_config_pandora.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_config_psp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_config_windows.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_config_winrt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_config_wiz.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_copying.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_cpuinfo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_egl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_endian.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_error.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_events.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_filesystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_gamecontroller.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_gesture.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_haptic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_hints.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_joystick.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_keyboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_keycode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_loadso.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_log.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_messagebox.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_mouse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_mutex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_name.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_opengl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_opengl_glext.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_opengles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_opengles2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_opengles2_gl2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_opengles2_gl2ext.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_opengles2_gl2platform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_opengles2_khrplatform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_pixels.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_platform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_power.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_quit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_rect.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_render.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_revision.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_rwops.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_scancode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_sensor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_shape.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_stdinc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_surface.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_system.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_syswm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_test_assert.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_test_common.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_test_compare.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_test_crc32.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_test_font.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_test_fuzzer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_test_harness.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_test_images.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_test_log.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_test_md5.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_test_memory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_test_random.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_thread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_timer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_touch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_types.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_video.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/SDL_vulkan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/begin_code.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/include/close_code.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sdl/lib/SDL2.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/skia/lib/release/expat.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/skia/lib/release/icu.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/skia/lib/release/libjpeg.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/skia/lib/release/libpng.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/skia/lib/release/libwebp.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/skia/lib/release/libwebp_sse41.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/skia/lib/release/sfntly.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/skia/lib/release/skia.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/skia/lib/release/zlib.lib" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\natan\Desktop\SkiaTest\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="MexQTAVG" />
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1SD2Vt7jsBNa4F9WhCqd9dOA8Ym" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/glfw/include/lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\natan\Desktop\SkiaTest\libs\glfw\include\lib" />
+      <recent name="C:\Users\natan\Desktop\SkiaTest\libs\glfw" />
+      <recent name="C:\Users\natan\Desktop\SkiaTest\libs\sdl\lib" />
+      <recent name="C:\Users\natan\Desktop\SkiaTest\libs\sdl" />
+      <recent name="C:\Users\natan\Desktop\SkiaTest\libs\glew\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\natan\Desktop\SkiaTest" />
+      <recent name="C:\Users\natan\Desktop\SkiaTest\src" />
+      <recent name="C:\Users\natan\Desktop\SkiaTest\libs\skia\lib\release" />
+      <recent name="C:\Users\natan\Desktop\SkiaTest\libs\glfw" />
+      <recent name="C:\Users\natan\Desktop\SkiaTest\src\core" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SkiaTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SkiaTest" TARGET_NAME="SkiaTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SkiaTest" RUN_TARGET_NAME="SkiaTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ba5b7f6-e3c3-4aba-9215-721a337114de" name="Default Changelist" comment="" />
+      <created>1571083872968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571083872968</updated>
+      <workItem from="1571083878584" duration="7530000" />
+      <workItem from="1571142751777" duration="5000" />
+      <workItem from="1571143807692" duration="8173000" />
+      <workItem from="1571216454158" duration="3160000" />
+      <workItem from="1571219644037" duration="1402000" />
+      <workItem from="1571221084015" duration="110000" />
+      <workItem from="1571221211582" duration="241000" />
+      <workItem from="1571223097798" duration="3997000" />
+      <workItem from="1571230617145" duration="2206000" />
+      <workItem from="1571241767204" duration="1707000" />
+      <workItem from="1571394997228" duration="12000" />
+      <workItem from="1571398202157" duration="2492000" />
+      <workItem from="1571402524260" duration="3304000" />
+      <workItem from="1571406401788" duration="2469000" />
+      <workItem from="1571566588251" duration="862000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/libs/sdl/include/SDL.h</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

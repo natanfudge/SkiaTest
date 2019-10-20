@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SkiaTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/natan/Desktop/SkiaTest/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/natan/Desktop/SkiaTest/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SkiaTest">
+				<Option output="C:/Users/natan/Desktop/SkiaTest/cmake-build-release/SkiaTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/natan/Desktop/SkiaTest/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DNOMINMAX"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/skia"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/config"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/glew/include/GL"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/sdl/include"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/glfw/include"/>
+					<Add directory="C:\deps\LLVM\lib\clang\8.0.0\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 SkiaTest"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SkiaTest/fast">
+				<Option output="C:/Users/natan/Desktop/SkiaTest/cmake-build-release/SkiaTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/natan/Desktop/SkiaTest/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DNOMINMAX"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/skia"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/config"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/glew/include/GL"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/sdl/include"/>
+					<Add directory="C:/Users/natan/Desktop/SkiaTest/libs/glfw/include"/>
+					<Add directory="C:\deps\LLVM\lib\clang\8.0.0\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 SkiaTest/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/natan/Desktop/SkiaTest/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\natan\Desktop\SkiaTest\cmake-build-release\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/android/SkAndroidFrameworkUtils.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/android/SkAnimatedImage.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/android/SkBRDAllocator.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/android/SkBitmapRegionDecoder.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/atlastext/SkAtlasTextContext.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/atlastext/SkAtlasTextFont.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/atlastext/SkAtlasTextRenderer.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/atlastext/SkAtlasTextTarget.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/c/sk_canvas.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/c/sk_colorspace.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/c/sk_data.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/c/sk_image.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/c/sk_imageinfo.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/c/sk_maskfilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/c/sk_matrix.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/c/sk_paint.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/c/sk_path.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/c/sk_picture.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/c/sk_shader.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/c/sk_surface.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/c/sk_types.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/codec/SkAndroidCodec.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/codec/SkCodec.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/codec/SkCodecAnimation.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/codec/SkEncodedOrigin.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/config/SkUserConfig.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkAnnotation.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkBBHFactory.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkBitmap.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkBlendMode.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkBlurTypes.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkCanvas.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkCanvasVirtualEnforcer.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkClipOp.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkColor.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkColorFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkColorPriv.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkColorSpace.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkContourMeasure.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkCoverageMode.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkCubicMap.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkData.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkDataTable.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkDeferredDisplayListRecorder.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkDeque.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkDocument.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkDrawLooper.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkDrawable.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkEncodedImageFormat.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkExecutor.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkFilterQuality.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkFlattenable.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkFont.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkFontArguments.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkFontLCDConfig.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkFontMetrics.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkFontMgr.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkFontParameters.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkFontStyle.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkFontTypes.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkGraphics.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkICC.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkImage.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkImageEncoder.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkImageGenerator.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkImageInfo.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkMallocPixelRef.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkMaskFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkMath.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkMatrix.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkMatrix44.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkMilestone.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkMultiPictureDraw.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkOverdrawCanvas.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkPaint.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkPath.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkPathEffect.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkPathMeasure.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkPathTypes.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkPicture.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkPictureRecorder.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkPixelRef.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkPixmap.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkPngChunkReader.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkPoint.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkPoint3.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkPostConfig.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkPreConfig.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkPromiseImageTexture.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkRRect.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkRSXform.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkRWBuffer.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkRasterHandleAllocator.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkRect.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkRefCnt.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkRegion.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkScalar.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkSerialProcs.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkShader.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkSize.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkStream.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkString.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkStrokeRec.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkSurface.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkSurfaceCharacterization.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkSurfaceProps.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkSwizzle.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkTextBlob.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkTileMode.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkTime.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkTraceMemoryDump.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkTypeface.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkTypes.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkUnPreMultiply.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkVertices.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkYUVAIndex.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/core/SkYUVASizeInfo.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/docs/SkPDFDocument.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/docs/SkXPSDocument.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/Sk1DPathEffect.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/Sk2DPathEffect.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkAlphaThresholdFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkArithmeticImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkBlurDrawLooper.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkBlurImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkBlurMaskFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkColorFilterImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkColorMatrix.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkColorMatrixFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkComposeImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkCornerPathEffect.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkDashPathEffect.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkDiscretePathEffect.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkDisplacementMapEffect.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkDropShadowImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkGradientShader.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkHighContrastFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkImageFilters.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkImageSource.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkLayerDrawLooper.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkLightingImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkLumaColorFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkMagnifierImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkMatrixConvolutionImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkMergeImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkMorphologyImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkOffsetImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkOpPathEffect.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkOverdrawColorFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkPaintImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkPerlinNoiseShader.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkPictureImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkShaderMaskFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkTableColorFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkTableMaskFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkTileImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkTrimPathEffect.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/effects/SkXfermodeImageFilter.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/encode/SkEncoder.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/encode/SkJpegEncoder.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/encode/SkPngEncoder.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/encode/SkWebpEncoder.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/GrBackendDrawableInfo.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/GrBackendSemaphore.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/GrBackendSurface.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/GrConfig.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/GrContext.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/GrContextOptions.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/GrContextThreadSafeProxy.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/GrDriverBugWorkarounds.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/GrDriverBugWorkaroundsAutogen.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/GrGpuResource.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/GrSurface.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/GrTexture.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/GrTypes.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/dawn/GrDawnTypes.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/gl/GrGLAssembleHelpers.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/gl/GrGLAssembleInterface.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/gl/GrGLConfig.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/gl/GrGLConfig_chrome.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/gl/GrGLExtensions.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/gl/GrGLFunctions.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/gl/GrGLInterface.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/gl/GrGLTypes.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/mock/GrMockTypes.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/mtl/GrMtlTypes.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/vk/GrVkBackendContext.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/vk/GrVkExtensions.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/vk/GrVkMemoryAllocator.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/vk/GrVkTypes.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/gpu/vk/GrVkVulkan.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/pathops/SkPathOps.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/ports/SkCFObject.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/ports/SkFontConfigInterface.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/ports/SkFontMgr_FontConfigInterface.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/ports/SkFontMgr_android.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/ports/SkFontMgr_directory.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/ports/SkFontMgr_empty.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/ports/SkFontMgr_fontconfig.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/ports/SkFontMgr_fuchsia.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/ports/SkFontMgr_indirect.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/ports/SkImageGeneratorCG.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/ports/SkImageGeneratorWIC.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/ports/SkRemotableFontMgr.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/ports/SkTypeface_mac.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/ports/SkTypeface_win.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/GrContext_Base.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/GrGLTypesPriv.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/GrImageContext.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/GrRecordingContext.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/GrResourceKey.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/GrSharedEnums.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/GrSingleOwner.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/GrTypesPriv.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/GrVkTypesPriv.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkBitmaskEnum.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkChecksum.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkColorData.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkDeferredDisplayList.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkEncodedInfo.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkFixed.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkFloatBits.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkFloatingPoint.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkHalf.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkImageInfoPriv.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkMacros.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkMalloc.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkMutex.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkNoncopyable.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkNx.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkNx_neon.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkNx_sse.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkOnce.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkPathRef.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkSafe32.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkSafe_math.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkSemaphore.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkShadowFlags.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkSpinlock.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkTArray.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkTDArray.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkTFitsIn.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkTHash.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkTLogic.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkTemplates.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkThreadAnnotations.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkThreadID.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkTo.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkVx.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/private/SkWeakRefCnt.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/svg/SkSVGCanvas.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/third_party/skcms/skcms.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/third_party/vulkan/vulkan/vk_platform.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/third_party/vulkan/vulkan/vulkan.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/third_party/vulkan/vulkan/vulkan_android.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/third_party/vulkan/vulkan/vulkan_core.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/third_party/vulkan/vulkan/vulkan_ios.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/third_party/vulkan/vulkan/vulkan_macos.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/third_party/vulkan/vulkan/vulkan_win32.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/third_party/vulkan/vulkan/vulkan_xcb.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/Sk3D.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkAnimCodecPlayer.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkBase64.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkCamera.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkCanvasStateUtils.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkEventTracer.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkFrontBufferedStream.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkInterpolator.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkLua.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkLuaCanvas.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkNWayCanvas.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkNoDrawCanvas.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkNullCanvas.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkPaintFilterCanvas.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkParse.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkParsePath.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkRandom.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkShadowUtils.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkTextUtils.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/SkTraceEventPhase.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/libs/skia/include/utils/mac/SkCGUtils.h">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/src/main.cpp">
+			<Option target="SkiaTest"/>
+		</Unit>
+		<Unit filename="C:/Users/natan/Desktop/SkiaTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

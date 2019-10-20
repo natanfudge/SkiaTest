@@ -1,0 +1,6 @@
+/*
+/*/
+!/libs/
+!.gitignore
+!/src/
+!CMakeLists.txt

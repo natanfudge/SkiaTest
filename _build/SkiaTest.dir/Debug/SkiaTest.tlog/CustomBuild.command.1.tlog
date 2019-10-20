@@ -1,0 +1,10 @@
+^C:\USERS\NATAN\DESKTOP\SKIATEST\CMAKELISTS.TXT
+setlocal
+C:\Users\natan\Desktop\bin\cmake\bin\cmake.exe -SC:/Users/natan/Desktop/SkiaTest -BC:/Users/natan/Desktop/SkiaTest/_build --check-stamp-file C:/Users/natan/Desktop/SkiaTest/_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
