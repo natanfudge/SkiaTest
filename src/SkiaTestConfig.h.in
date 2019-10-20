@@ -1,0 +1,3 @@
+// the configured options and settings for SkiaTest
+#define SkiaTest_VERSION_MAJOR @SkiaTest_VERSION_MAJOR@
+#define SkiaTest_VERSION_MINOR @SkiaTest_VERSION_MINOR@
